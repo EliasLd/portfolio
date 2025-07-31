@@ -8,3 +8,34 @@
 	--font-poppins: 'Poppins', 'sans-serif';
 	--font-worksans: 'Work Sans', 'sans-serif';
 }
+
+@layer utilities {
+  .animate-gradient {
+    animation: gradient-x 5s ease infinite;
+  }
+
+  @keyframes gradient-x {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+@keyframes scrollDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(18px);
+  }
+}
+
+.animate-scroll-down {
+  animation: scrollDown 1.5s infinite ease-in-out;
+}

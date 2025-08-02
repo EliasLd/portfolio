@@ -1,0 +1,38 @@
+[
+  {
+    "title": "CHIP-8pp",
+    "illustration": "slippery_slope.png",
+    "description": "A fully-tested CHIP-8 emulator written in modern C++. Faithful to the original specification, with clean architecture and deterministic behavior.",
+    "techs": ["C++", "CMake", "Bash", "Docker"],
+    "link": "https://github.com/EliasLd/CHIP-8pp"
+  },
+  {
+    "title": "Scan Scraper",
+    "illustration": "scan-scraper.png",
+    "description": "A CLI and TUI tool to scrape manga chapters from anime-sama.fr and convert them to PDF. Built in Go with Bubble Tea and custom PDF/image processing.",
+    "techs": ["Go", "Bubble Tea", "CLI", "TUI", "Web Scraping"],
+    "link": "https://github.com/EliasLd/scan-scraper"
+  },
+  {
+    "title": "pokemonpp",
+    "illustration": "pokemonpp.png",
+    "description": "A retro-inspired Pokémon game in the terminal, built in C++ with a full ANSI rendering system. Includes custom decoding and encoding of Pokémon sprites into ANSI art for smooth display in TUI.",
+    "techs": ["C++", "TUI"],
+    "link": "https://github.com/EliasLd/pokemonpp"
+  },
+  {
+    "title": "gotalk-backend - WIP",
+    "illustration": "gotalk.svg",
+    "description": "Modular and scalable Go backend for a chat app. Includes JWT-based authentication, user registration, public/private rooms, and real-time messaging pipeline (in progress).",
+    "techs": ["Go", "JWT"],
+    "link": "https://github.com/EliasLd/gotalk-backend"
+  },
+  {
+    "title": "Portfolio Website",
+    "illustration": "pt.jpg",
+    "description": "Personal portfolio built with React and TailwindCSS. Features animated components with Framer Motion and a clean modular structure.",
+    "techs": ["Javascript", "React", "TailwindCSS"],
+    "link": "https://github.com/EliasLd/portfolio"
+  }
+]
+

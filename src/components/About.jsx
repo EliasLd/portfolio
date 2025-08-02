@@ -1,5 +1,10 @@
 import FadeInWhenVisible from "../animations/FadeIn.jsx";
 import DecryptedText from "../React-Bits/DecryptedText";
+import Button from '../components/Button.jsx';
+import { LuGithub } from "react-icons/lu";
+import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineSimCardDownload } from "react-icons/md";
+
 
 function About() {
   return (
@@ -24,6 +29,14 @@ function About() {
 
         <FadeInWhenVisible as="p" delay={0.4} className="text-lg text-white/80 leading-relaxed font-worksans">
           Outside of tech, I love to travel and discover new cultures. I'm also into sports — especially running and weight training. I'm deeply passionate about manga and anime, which continue to inspire me in many creative ways.
+        </FadeInWhenVisible>
+
+        <FadeInWhenVisible as="p" delay={0.4} className="text-lg text-white/80 leading-relaxed font-worksans">
+          <div className="flex items-center gap-5">
+            <Button icon={LuGithub} link="https://github.com/EliasLd" classname="text-white" />
+            <Button icon={FaLinkedin} link="https://www.linkedin.com/in/elias-el-abd" classname="text-white" />
+            <Button icon={MdOutlineSimCardDownload} link="/CV.pdf" classname="text-white" download />
+          </div>
         </FadeInWhenVisible>
       </div>
     </section>

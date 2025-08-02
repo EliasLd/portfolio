@@ -1,6 +1,9 @@
 function ProjectCard({ title, description, techs, illustration, link }) {
   return (
-    <div className="flex flex-col gap-4 p-6 border border-white/10 rounded-xl bg-white/5 h-[500px] overflow-hidden">
+    <div
+      className="flex flex-col gap-y-3 md:gap-y-1 justify-between p-6 border border-white/10 rounded-xl bg-white/5 overflow-hidden
+             md:h-[550px] lg:h-[500px]"
+    >
       <a
         href={link}
         target="_blank"
@@ -10,7 +13,7 @@ function ProjectCard({ title, description, techs, illustration, link }) {
         <img
           src={`src/assets/${illustration}`}
           alt={title}
-          className="w-full h-52 object-cover rounded-lg border border-white/10"
+          className="w-full h-52 object-cover rounded-lg border border-white/10 transition-transform duration-300 ease-in-out hover:scale-102"
         />
       </a>
       <h3 className="text-2xl font-semibold text-white font-worksans">{title}</h3>

@@ -5,7 +5,7 @@ import projects from "../data/projects.json";
 
 function Projects() {
   return (
-    <section id="projects" className="min-h-screen px-10 sm:px-10 md:px-20 py-20 bg-neutral-900 flex justify-center items-center">
+    <section id="projects" className="min-h-screen px-10 sm:px-10 md:px-20 py-20 bg-neutral-950 flex justify-center items-center">
       <div className="max-w-6xl w-full text-white space-y-14">
         <FadeInWhenVisible as="h2" className="text-4xl font-bold text-center font-worksans">
           <DecryptedText text="Projects" speed={100} animateOn="view" revealDirection="center" />

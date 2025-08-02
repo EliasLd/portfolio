@@ -1,6 +1,5 @@
 import FadeInWhenVisible from "../animations/FadeIn.jsx";
 import DecryptedText from "../React-Bits/DecryptedText";
-// …
 
 function About() {
   return (

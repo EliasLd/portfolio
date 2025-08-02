@@ -44,7 +44,7 @@ function Technologies() {
               I rely on powerful tools to automate and streamline my workflow:
             </p>
             <div className="flex gap-6 text-4xl">
-              <img src={Docker} alt="Docker" classname="w-auto h-12" />
+              <img src={Docker} alt="Docker" className="w-auto h-12" />
               <img src={Jenkins} alt="Jenkins" className="w-auto h-12" />
               <img src={Git} alt="Git" className="w-auto h-12" />
             </div>

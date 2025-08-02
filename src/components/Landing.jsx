@@ -2,7 +2,7 @@ import RotatingText from '../React-Bits/RotatingText.jsx'
 
 function Landing() {
   return (
-    <div className="w-full h-screen flex flex-col gap-y-8 items-center justify-center px-1">
+    <div id="home" className="w-full h-screen flex flex-col gap-y-8 items-center justify-center px-1">
       <p className="font-worksans font-bold text-5xl sm:text-8xl text-white text-center">
         <span className="font-JetBrainsMono text-green-400 italic">$</span> echo "
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-gradient bg-[length:200%_200%]">

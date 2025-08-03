@@ -1,9 +1,11 @@
+import { useEffect, useState } from "react";
 import FadeInWhenVisible from "../animations/FadeIn.jsx";
 import DecryptedText from "../React-Bits/DecryptedText";
 import Button from '../components/Button.jsx';
 import { LuGithub } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineSimCardDownload } from "react-icons/md";
+import { GoLocation } from "react-icons/go";
 
 function calculateAge(birthDate) {
   const today = new Date();
@@ -16,8 +18,25 @@ function calculateAge(birthDate) {
   return age;
 }
 
+function getParisTime() {
+  const parisTime = new Date().toLocaleTimeString('fr-FR', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'Europe/Paris',
+  });
+  return parisTime;
+}
+
 function About() {
+  const [parisTime, setParisTime] = useState(getParisTime());
   const age = calculateAge('2004-09-15');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setParisTime(getParisTime());
+    }, 60000); // update every minute
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section id="about" className="min-h-screen w-full px-10 py-20 bg-neutral-900 flex justify-center items-center">
@@ -49,6 +68,11 @@ function About() {
           <Button icon={LuGithub} link="https://github.com/EliasLd" classname="text-white" />
           <Button icon={FaLinkedin} link="https://www.linkedin.com/in/elias-el-abd" classname="text-white" />
           <Button icon={MdOutlineSimCardDownload} link="/CV.pdf" classname="text-white" download />
+        </FadeInWhenVisible>
+
+        <FadeInWhenVisible as="div" delay={0.6} className="flex items-center gap-2 text-white/60 font-worksans">
+          <GoLocation className="text-white" />
+          <span>Paris — {parisTime}</span>
         </FadeInWhenVisible>
       </div>
     </section>

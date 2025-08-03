@@ -1,3 +1,17 @@
+import chip8ppImg from '../assets/slippery_slope.png';
+import scanscraperImg from '../assets/scan-scraper.png';
+import pokemonppImg from '../assets/pokemonpp.png';
+import gotalkImg from '../assets/gotalk.svg';
+import portfolioImg from '../assets/pt.jpg';
+
+const illustrations = {
+  chip8: chip8ppImg,
+  scan: scanscraperImg,
+  pokemonpp: pokemonppImg,
+  gotalk: gotalkImg,
+  pt: portfolioImg
+}
+
 function ProjectCard({ title, description, techs, illustration, link }) {
   return (
     <div
@@ -11,7 +25,7 @@ function ProjectCard({ title, description, techs, illustration, link }) {
         className="block"
       >
         <img
-          src={`src/assets/${illustration}`}
+          src={illustrations[illustration]}
           alt={title}
           className="w-full h-52 object-cover rounded-lg border border-white/10 transition-transform duration-300 ease-in-out hover:scale-102"
         />

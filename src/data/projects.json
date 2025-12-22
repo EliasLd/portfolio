@@ -7,6 +7,14 @@
     "link": "https://github.com/EliasLd/CHIP-8pp"
   },
   {
+    "title": "Serenité",
+    "illustration": "serenite",
+    "description": "A modern web diary to log and revisit your daily positive moments. Full-stack application (React, Go, Postgres) with a beautiful, responsive UI and secure authentication focused on personal wellness.",
+    "techs": ["Go" ,"TypeScript", "PostgreSQL", "Docker"],
+    "link": "https://github.com/EliasLd/Serenite",
+    "website": "https://serenite.eliasld.com"
+  },
+  {
     "title": "Scan Scraper",
     "illustration": "scan",
     "description": "A CLI and TUI tool to scrape manga chapters from anime-sama.fr and convert them to PDF. Built in Go with Bubble Tea and custom PDF/image processing.",

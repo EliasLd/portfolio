@@ -1,5 +1,27 @@
 [
   {
+    "title": "goweeb-sama",
+    "illustration": "scan",
+    "description": "A TUI and CLI tool to scrape manga chapters from anime-sama.fr and convert them to PDF. Built in Go with Bubble Tea and custom PDF/image processing.",
+    "techs": ["Go", "Bubble Tea", "CLI", "TUI", "Web Scraping"],
+    "link": "https://github.com/EliasLd/scan-scraper"
+  },
+  {
+      "title": "Serenité",
+      "illustration": "serenite",
+      "description": "A modern web diary to log and revisit your daily positive moments. Full-stack application (React, Go, Postgres) with a beautiful, responsive UI and secure authentication focused on personal wellness.",
+      "techs": ["Go" ,"TypeScript", "PostgreSQL", "Docker"],
+      "link": "https://github.com/EliasLd/Serenite",
+      "website": "https://serenite.eliasld.com"
+  },
+  {
+      "title": "Rofi music downloader",
+      "illustration": "rofiMusic",
+      "description": "Simple and modern set of tools used to download Youtube vieos or playlist as mp3, integrable with open source project Rofi",
+      "techs": ["Bash", "Rofi", "CSS", "ricing"],
+      "link": "https://github.com/EliasLd/rofi-music-dl"
+  },
+  {
     "title": "CHIP-8pp",
     "illustration": "chip8",
     "description": "A fully-tested CHIP-8 emulator written in modern C++. Faithful to the original specification, with clean architecture and deterministic behavior.",
@@ -7,19 +29,11 @@
     "link": "https://github.com/EliasLd/CHIP-8pp"
   },
   {
-    "title": "Serenité",
-    "illustration": "serenite",
-    "description": "A modern web diary to log and revisit your daily positive moments. Full-stack application (React, Go, Postgres) with a beautiful, responsive UI and secure authentication focused on personal wellness.",
-    "techs": ["Go" ,"TypeScript", "PostgreSQL", "Docker"],
-    "link": "https://github.com/EliasLd/Serenite",
-    "website": "https://serenite.eliasld.com"
-  },
-  {
-    "title": "Scan Scraper",
-    "illustration": "scan",
-    "description": "A CLI and TUI tool to scrape manga chapters from anime-sama.fr and convert them to PDF. Built in Go with Bubble Tea and custom PDF/image processing.",
-    "techs": ["Go", "Bubble Tea", "CLI", "TUI", "Web Scraping"],
-    "link": "https://github.com/EliasLd/scan-scraper"
+    "title": "Webgohook",
+    "illustration": "webgohook",
+    "description": "Fast, secure and self-hostable github webhook server, mainly used to trigger CD builds through github events on my personal infrastructure",
+    "techs": ["Go", "github"],
+    "link": "https://github.com/EliasLd/webgohook"
   },
   {
     "title": "pokemonpp",
@@ -27,20 +41,6 @@
     "description": "A retro-inspired Pokémon game in the terminal, built in C++ with a full ANSI rendering system. Includes custom decoding and encoding of Pokémon sprites into ANSI art for smooth display in TUI.",
     "techs": ["C++", "TUI"],
     "link": "https://github.com/EliasLd/pokemonpp"
-  },
-  {
-    "title": "gotalk-backend - WIP",
-    "illustration": "gotalk",
-    "description": "Modular and scalable Go backend for a chat app. Includes JWT-based authentication, user registration, public/private rooms, and real-time messaging pipeline (in progress).",
-    "techs": ["Go", "JWT"],
-    "link": "https://github.com/EliasLd/gotalk-backend"
-  },
-  {
-    "title": "Portfolio Website",
-    "illustration": "pt",
-    "description": "Personal portfolio built with React and TailwindCSS. Features animated components with Framer Motion and a clean modular structure.",
-    "techs": ["Javascript", "React", "TailwindCSS"],
-    "link": "https://github.com/EliasLd/portfolio"
   }
 ]
 

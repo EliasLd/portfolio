@@ -5,7 +5,9 @@ import Jenkins from '../assets/Jenkins.svg';
 import Neovim from '../assets/Neovim.svg';
 import Vscode from '../assets/vscode.svg';
 import Docker from '../assets/docker.svg';
+import Podman from '../assets/podman.svg';
 import Git from '../assets/Git.svg';
+import Gitlab from '../assets/gitlab.svg';
 
 function Technologies() {
   return (
@@ -26,7 +28,7 @@ function Technologies() {
         <FadeInWhenVisible as="div" delay={0.2} className="space-y-6">
           <p className="text-white/80 leading-relaxed text-lg">
             I primarily work on <span className="font-semibold text-white">Linux environments</span>, mostly
-            <span className="text-white"> Arch </span> and <span className="text-white">Debian</span>, but I'm perfectly comfortable working on
+            <span className="text-white"> Arch (btw) </span> and <span className="text-white">Debian</span>, but I'm perfectly comfortable working on
             <span className="text-white"> Windows</span> as well when required.
           </p>
         </FadeInWhenVisible>
@@ -45,8 +47,10 @@ function Technologies() {
             </p>
             <div className="flex gap-6 text-4xl">
               <img src={Docker} alt="Docker" className="w-auto h-12" />
+              <img src={Podman} alt="Podman" className="w-auto h-12" />
               <img src={Jenkins} alt="Jenkins" className="w-auto h-12" />
               <img src={Git} alt="Git" className="w-auto h-12" />
+              <img src={Gitlab} alt="Gitlab" className="w-auto h-12" />
             </div>
           </div>
 

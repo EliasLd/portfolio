@@ -4,6 +4,8 @@ import scanscraperImg from '../assets/scan-scraper.png';
 import pokemonppImg from '../assets/pokemonpp.png';
 import gotalkImg from '../assets/gotalk.svg';
 import portfolioImg from '../assets/pt.jpg';
+import rofiMusicDlImg from '../assets/rofi-music-dl.png'
+import webgohookImg from '../assets/github-network.jpg'
 
 const illustrations = {
   chip8: chip8ppImg,
@@ -11,7 +13,10 @@ const illustrations = {
   scan: scanscraperImg,
   pokemonpp: pokemonppImg,
   gotalk: gotalkImg,
-  pt: portfolioImg
+  rofiMusic: rofiMusicDlImg,
+  pt: portfolioImg,
+  webgohook: webgohookImg
+
 }
 
 function ProjectCard({ title, description, techs, illustration, link, website }) {
